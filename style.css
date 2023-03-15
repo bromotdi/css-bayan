@@ -4,6 +4,7 @@ html {
   font-size: 0.5rem;
   transition: 2s;
   position: static;
+  hover: hover;
 }
 body {
   background-color: #fff8f8;
