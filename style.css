@@ -4,7 +4,6 @@ html {
   font-size: 0.5rem;
   transition: 2s;
   position: static;
-  hover: hover;
 }
 body {
   background-color: #fff8f8;
@@ -165,5 +164,18 @@ label input[type="radio"]:checked +.accordion-title + .accordion-image {
   }
   label input[type="radio"]:checked +.accordion-title + .accordion-image {
     height: 25em;
+  }
+}
+
+/* media: hover */
+@media (hover: hover) {
+  .accordion:hover {
+    color: black;
+  }
+  .accordion:hover .button {
+    visibility: visible;
+  }
+  .accordion-item, .accordion-item label, h2, .accordion-image, .button {
+    cursor: pointer;
   }
 }
