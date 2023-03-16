@@ -44,7 +44,9 @@ body {
 h2 {
   cursor: none;
 }
-ul {
+ul, li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .accordion-image {
@@ -74,9 +76,9 @@ ul {
   color: black;
 }
 
-.accordion:hover .button::after {
+.accordion-item:hover .button {
   visibility: visible;
-  transition: all 1s ease;
+  transition: 1s ease;
   transform: rotate(45deg);
 }
 
