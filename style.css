@@ -99,7 +99,7 @@ label input[type="radio"]:checked +.accordion-title + .accordion-image {
 
 
 label:active  {
-  color: red !important;
+  color: dodgerblue !important;
 }
 
 
