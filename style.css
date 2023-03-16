@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -95,9 +96,12 @@ label input[type="radio"]:checked +.accordion-title + .accordion-image {
   transform: rotate(45deg);
 }
 
-.accordion-item input[type="radio"]:checked + .accordion-title {
-  color: black;
+
+
+label:active  {
+  color: red !important;
 }
+
 
 .accordion-item, .accordion-item label, h2, .accordion-image, .button {
   cursor: pointer;
